@@ -1,0 +1,22 @@
+{
+  "name": "MoreSight",
+  "version": "0.99.0",
+  "description": "The Syntax Highlighter for Chrome",
+  "homepage_url": "https://github.com/akashiappa/moresight",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["js/background.js"]
+  },
+  "web_accessible_resources": ["css/*", "fonts/*", "js/lib/*", "js/languages/*"],
+  "options_page": "options.html",
+  "permissions": [
+    "tabs",
+    "webRequest",
+    "<all_urls>"
+  ],
+  "icons": {
+    "16": "images/icon_16.png",
+    "48": "images/icon_48.png",
+    "128": "images/icon_128.png"
+  }
+}
